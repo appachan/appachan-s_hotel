@@ -1,0 +1,7 @@
+svg path,svg polygon,svg rect{
+	fill: #4691f6;
+}
+svg circle{
+	stroke: #4691f6;
+	stroke-width: 1;
+}
