@@ -1,6 +1,6 @@
 @font-face{
-    font-family: mplus-1p-thin;
-    src: url('http://mplus-fonts.sourceforge.jp/webfonts/mplus-1p-thin.ttf')
+    font-family: mplus-1p-regular;
+    src: url('http://mplus-fonts.sourceforge.jp/webfonts/mplus-1p-regular.ttf')
          format("truetype");
 }
 #email {
@@ -13,7 +13,7 @@
 
 body {
     background-color: #f5f5f5;
-    font-family: mplus-1p-thin;
+    font-family: mplus-1p-regular;
     min-width: 1090px;
 }
 header {
