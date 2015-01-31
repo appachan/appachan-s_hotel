@@ -1,6 +1,6 @@
 @font-face{
     font-family: mplus-1p-light;
-    src: url('http://mplus-fonts.sourceforge.jp/webfonts/mplus-1p-light.ttf')
+    src: url('./mplus-1p-light.ttf')
          format("truetype");
 }
 #email {
