@@ -1,4 +1,2 @@
-appachan-s _ hotel
-================
-
-my introduction
+# appachan-s_hotel
+## my introduction
