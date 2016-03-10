@@ -83,16 +83,6 @@ header ul li a:hover {
     line-height: normal;
     word-wrap: normal;
 }
-.column1 {
-    position: absolute;
-    top: 250px;
-    height: 240px;
-    display: block;
-}
-.column1 h1{
-    font-size: 250%;
-    text-align: center;
-}
 div img {
     padding: 7px;
     width: 7rem;
@@ -106,18 +96,18 @@ div img {
     position: relative;
     top: -90px;
 }
-.column2 {
+section {
     position: relative;
     top: -60px;
     padding: 0px;
     }
-.column2 h2 {
+section h2 {
     text-align: center;
     font-size: 30px;
     padding-bottom: 10px;
     padding-top: 10px;
 }
-.column2 ul {
+section ul {
     text-align: center;
     list-style-type: none;
     padding: 10px 0px 10px 0px;
