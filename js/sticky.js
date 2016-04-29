@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.navbar').each(function () {
+    $('#navbar').each(function () {
         var $window = $(window),
             $header = $(this),
             headerOffsetTop = $header.offset().top;
