@@ -2,11 +2,12 @@
 
 //window.addEventListener('DomContentLoaded', function() {
 window.onload = function() {
-  let header = document.getElementById('navbar');
-  let headerOffsetTop = header.offsetTop;
+  var header = document.getElementById('navbar');
+  var headerOffsetTop = header.offsetTop;
 
   window.addEventListener('scroll', function() {
-    if (document.body.scrollTop > headerOffsetTop) {
+    var scrollTop = document.body.scrollTop > document.documentElement.scrollTop ? document.body.scrollTop : document.documentElement.scrollTop;
+    if (scrollTop > headerOffsetTop) {
       header.classList.add('is_fixed');
     } else {
       header.classList.remove('is_fixed');
