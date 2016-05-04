@@ -16,7 +16,7 @@ body {
     background-color: #f5f5f5;
     font-family: mplus-1p-light;
 }
-header {
+header, header .is_fixed {
     position: absolute;
     z-index: 9998;
     width: 95%;
