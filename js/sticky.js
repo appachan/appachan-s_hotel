@@ -1,18 +1,16 @@
-document.addEventListener('DomContentLoaded', function() {
+'use strict'
+
+//window.addEventListener('DomContentLoaded', function() {
+window.onload = function() {
   let header = document.getElementById('navbar');
-  let body = document.getElementsByTagName('body')[0];
-  if ( !header || !body ) {
-    console.log('wei');
-    return;
-  }
+  let headerOffsetTop = header.offsetTop;
 
-  let style = window.getComputedStyle(header);
-  let margin = Number(style.marginBottom.replace('px', ''));
-
-  header.style.position = 'fixed';
-  header.style.top = 0;
-  header.style.zIndex = 9999;
-  header.style.width = '100%';
-  header.style.backgroundColor = '#fff';
-  body.style.marginTop = header.offsetHeight + margin + 'px';
-});
+  window.addEventListener('scroll', function() {
+    if (document.body.scrollTop > headerOffsetTop) {
+      header.classList.add('is_fixed');
+    } else {
+      header.classList.remove('is_fixed');
+    }
+  });
+};
+//});
