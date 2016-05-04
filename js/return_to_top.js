@@ -1,7 +1,9 @@
+'use strict'
+
 $(function(){
-    $("#pagetop").click(function(){
-        if (1) {return}
-        $("html,body").animate({scrollTop:0},'slow');
-        return false;
-    });
+  var toTopButton = document.getElementById('pagetop');
+  toTopButton.addEventListener('click', function() {
+    window.scrollTo(0,0);
+    return false;
+  });
 });
