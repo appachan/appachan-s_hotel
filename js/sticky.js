@@ -1,7 +1,7 @@
 'use strict'
 
 //window.addEventListener('DomContentLoaded', function() {
-window.onload = function() {
+window.addEventListener('load', function() {
   var header = document.getElementById('navbar');
   var headerOffsetTop = header.offsetTop;
 
@@ -13,5 +13,5 @@ window.onload = function() {
       header.classList.remove('is_fixed');
     }
   });
-};
+});
 //});
